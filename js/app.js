@@ -10,8 +10,11 @@ function addToDo(event){
 		return false;
 	}
 
-	toDoList.innerHTML += '<li>' + userInput.value + '</li>';//it adds the input on the html page
-	userInput.value = ''; // it makes an empty box after submit
+	// toDoList.innerHTML += '<li>' + userInput.value + '</li>';//it adds the input on the html page
+	toDoList.innerHTML = '<li>' + userInput.value + '</li>' + toDoList.innerHTML;
+	userInput.value = '' ; // it makes an empty box after submit
 }
+
+
 
 userSubmit.addEventListener('click', addToDo, false);

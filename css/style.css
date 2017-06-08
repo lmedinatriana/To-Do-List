@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Kaushan+Script');
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -5,7 +7,17 @@
 }
 
 body {
-	background-color: #323232;
+	background-image: url("../images/bg-1.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh; /* Viewport height*/
+	width: 100%; /* Viewport width*/
+}
+
+.section-bg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .main-container {
@@ -14,62 +26,62 @@ body {
 	align-items: center;
 }
 
-.main-container form {
+.head {
+	width: 100%;
+	margin: 0px 0px 30px 0px;
+	padding: 30px;
+	/*background-color: #000;*/
+}
 
-    width: 700px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-	overflow: hidden;
+.head h1 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 50px;
+	color: white;
 	text-align: center;
 }
 
-.main-container h1 {
+.main-container form {
+	width: 600px;
+	margin: auto;
 	text-align: center;
-	margin: 30px 0;
-	padding: 10px;
-	color: white;
-	font-family: Roboto, 'Helvetica Neue', 'Lucida Grande', sans-serif;
-	font-weight: normal;
+	/*background-color: #FFFFF0;*/
+}
+
+.main-container input {
+	width: 100%;
+	margin: 30px 0px 30px 0px;
+	height: 50px;
+}
+
+input::placeholder {
+    margin: 10px 0px;
+    font-family: 'Quicksand', sans-serif;
+    opacity: .4;
+} 
+.button-container button {
+	margin: 0px 0px 30px 0px;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.list-container {
+	width: 600px;
+	margin: auto;
+	/*background-color: #FFFFF0;*/
+}
+
+.list-container ul {
+	margin: 0px 0px 30px 30px;
+	padding: 30px;
+	text-decoration: none;
+	list-style-position:inside;
+	font-family: 'Caveat', cursive;
 	font-size: 20px;
 }
 
-form {
-	display: block;
-	justify-content: center;
-	align-items: center;
-	margin: 0 auto;
-	background-color: #FFF8DC;
-	text-align: left;
-	width: 80%;
-	border-radius: 6px;
-	border: none;
-}
-
-label {
-	display: block;
-	font-family: Roboto, 'Helvetica Neue', 'Lucida Grande', sans-serif;
-	font-weight: normal;
-	padding: 10px;
-
-}
-
-input {
-
-}
-
-button {
-	display: block;
-	justify-content: center;
-	align-items: center;
-	border-radius: 8px;
-    background-color: #A09BE7;
-    border: none;
-    color: whitesmoke;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 10px 0px;
-    padding: 10px;
-    width: 50%;
-
-}

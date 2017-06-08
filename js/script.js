@@ -40,15 +40,15 @@
 // console.log(b);
 
 //MODULUS FUNCTION
-function evenOrOdd(num) {
-	var tester = num % 2;
-	if (tester === 0) {
-		console.log("The value passed is EVEN");
-	} else if (tester ===1) {
-		console.log("The value passed is  ODD")
-	} else {
-		console.log("Please provide a number for this function");
-	}
-}
+// function evenOrOdd(num) {
+// 	var tester = num % 2;
+// 	if (tester === 0) {
+// 		console.log("The value passed is EVEN");
+// 	} else if (tester ===1) {
+// 		console.log("The value passed is  ODD")
+// 	} else {
+// 		console.log("Please provide a number for this function");
+// 	}
+// }
 
-evenOrOdd(106);
+// evenOrOdd(106);

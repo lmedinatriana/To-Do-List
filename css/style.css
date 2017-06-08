@@ -4,6 +4,72 @@
 	padding: 0;
 }
 
-h1 {
-	color: red;
+body {
+	background-color: #323232;
+}
+
+.main-container {
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-container form {
+
+    width: 700px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.main-container h1 {
+	text-align: center;
+	margin: 30px 0;
+	padding: 10px;
+	color: white;
+	font-family: Roboto, 'Helvetica Neue', 'Lucida Grande', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+form {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	background-color: #FFF8DC;
+	text-align: left;
+	width: 80%;
+	border-radius: 6px;
+	border: none;
+}
+
+label {
+	display: block;
+	font-family: Roboto, 'Helvetica Neue', 'Lucida Grande', sans-serif;
+	font-weight: normal;
+	padding: 10px;
+
+}
+
+input {
+
+}
+
+button {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+    background-color: #A09BE7;
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 0px;
+    padding: 10px;
+    width: 50%;
+
 }
